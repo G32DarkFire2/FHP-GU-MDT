@@ -15,7 +15,7 @@
 }
 body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);height:100vh;overflow:hidden;display:flex;flex-direction:column;font-size:13px}
 button{cursor:pointer;font-family:inherit;border:none;outline:none;background:none}
-input,textarea,select{font-family:inherit;outline:none;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:8px 12px;font-size:12px;width:100%;transition:border-color .2s}
+input,textarea,select{font-family:inherit;outline:none;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:8px 12px;font-size:12px;width:100%;transition:bor[...]
 input:focus,textarea:focus,select:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(59,130,246,0.1)}
 select option{background:var(--card2)}
 textarea{resize:vertical}
@@ -28,10 +28,10 @@ label{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--m
 ::-webkit-scrollbar-thumb{background:var(--muted2);border-radius:2px}
 
 /* Grid BG */
-.grid-bg{position:absolute;inset:0;pointer-events:none;opacity:.03;background-image:linear-gradient(rgba(255,255,255,.6) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.6) 1px,transparent 1px)}
+.grid-bg{position:absolute;inset:0;pointer-events:none;opacity:.03;background-image:linear-gradient(rgba(255,255,255,.6) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.6) 1px,transparent[...]
 
 /* BUTTONS */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:7px 16px;border-radius:6px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;transition:all .15s}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:7px 16px;border-radius:6px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;transition:all[...]
 .btn:disabled{opacity:.4;cursor:not-allowed;pointer-events:none}
 .btn-primary{background:var(--primary);color:#fff;border-color:var(--primary)}.btn-primary:hover{opacity:.88}
 .btn-outline{background:transparent;color:var(--text);border-color:var(--border)}.btn-outline:hover{background:var(--card2)}
@@ -73,7 +73,7 @@ label{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--m
 .logo-text .t3{font-size:8px;color:var(--muted2);letter-spacing:.07em;text-transform:uppercase;margin-top:1px}
 #nav{flex:1;padding:14px 10px;overflow-y:auto}
 .nav-section-label{font-size:9px;color:var(--muted2);text-transform:uppercase;letter-spacing:.1em;padding:0 8px;margin-bottom:6px;margin-top:4px}
-.nav-item{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:6px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;cursor:pointer;border:1px solid transparent;transition:all .15s}
+.nav-item{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:6px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;cursor:pointer;border:1px solid transparent;transitio[...]
 .nav-item:hover{background:var(--card2);color:var(--text)}
 .nav-item.active{background:var(--primary-10);color:var(--primary);border-color:var(--primary-25)}
 .nav-icon{width:16px;text-align:center;font-size:13px;flex-shrink:0}
@@ -106,7 +106,7 @@ label{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--m
 
 /* TOGGLE BUTTONS */
 .toggle-group{display:flex;gap:8px}
-.toggle-btn{flex:1;padding:8px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;border:1px solid var(--border);border-radius:6px;color:var(--muted);transition:all .15s;cursor:pointer}
+.toggle-btn{flex:1;padding:8px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;border:1px solid var(--border);border-radius:6px;color:var(--muted);transition:all .15s;curs[...]
 .toggle-btn:hover{border-color:var(--primary-25);color:var(--text)}
 .toggle-btn.selected-primary{background:var(--primary-10);border-color:var(--primary);color:var(--primary)}
 .toggle-btn.selected-critical{background:rgba(248,81,73,.1);border-color:var(--red);color:var(--red)}
@@ -140,7 +140,7 @@ label{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--m
 .bolo-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:12px;border-left-width:3px;position:relative}
 .bolo-head{display:flex;align-items:flex-start;gap:12px;margin-bottom:10px}
 .bolo-avatar{width:64px;height:64px;border-radius:8px;border:1px solid var(--border);object-fit:cover;background:var(--card2);flex-shrink:0}
-.bolo-avatar-placeholder{width:64px;height:64px;border-radius:8px;border:1px solid var(--border);background:var(--card2);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:32px}
+.bolo-avatar-placeholder{width:64px;height:64px;border-radius:8px;border:1px solid var(--border);background:var(--card2);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:[...]
 .bolo-title{font-size:15px;font-weight:700;margin-bottom:4px}
 .bolo-roblox{font-size:11px;color:var(--muted);margin-bottom:4px}
 .bolo-desc{font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:8px}
@@ -198,7 +198,7 @@ tr:hover td{background:var(--card2)}
 .text-xs{font-size:11px}.text-2xs{font-size:10px}.text-3xs{font-size:9px}
 .w-full{width:100%}.shrink-0{flex-shrink:0}
 .empty-state{text-align:center;padding:48px 0;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
-.trooper-banner{background:var(--primary-10);border:1px solid var(--primary-25);border-radius:6px;padding:9px 12px;display:flex;align-items:center;gap:8px;font-size:11px;color:var(--primary);margin-bottom:12px}
+.trooper-banner{background:var(--primary-10);border:1px solid var(--primary-25);border-radius:6px;padding:9px 12px;display:flex;align-items:center;gap:8px;font-size:11px;color:var(--primary);margin-bo[...]
 </style>
 </head>
 <body>
@@ -271,14 +271,29 @@ setInterval(() => {
 
 // ===================== DISPATCH VOICE ANNOUNCEMENTS =====================
 function announceDispatch(msg) {
-  const text = msg;
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.rate = 1;
-  utterance.pitch = 0.9;
+  const utterance = new SpeechSynthesisUtterance(msg);
+  utterance.rate = 0.85;
+  utterance.pitch = 0.8;
   utterance.volume = 1;
   utterance.lang = 'en-US';
+  
+  // Use Google UK voice for authentic dispatch sound
+  const voices = speechSynthesis.getVoices();
+  const dispatchVoice = voices.find(v => v.name.includes('Google UK')) || voices.find(v => v.name.includes('Microsoft Zira')) || voices[0];
+  if (dispatchVoice) utterance.voice = dispatchVoice;
+  
   speechSynthesis.cancel();
   speechSynthesis.speak(utterance);
+}
+
+function announceNewCall(callType, location, priority) {
+  const msg = `Attention all units. New ${priority} priority ${callType} call at ${location}. Dispatch number available on screen.`;
+  announceDispatch(msg);
+}
+
+function announceNewBolo(subject, dangerLevel) {
+  const msg = `Attention all units. Be on the lookout for ${subject}. Danger level: ${dangerLevel}. Details available on MDT.`;
+  announceDispatch(msg);
 }
 
 const HISTORY_EXPIRE_MS = 60 * 60 * 1000;
@@ -389,7 +404,7 @@ function appHtml() {
   <div id="app-layout">
     <div id="sidebar">
       <div class="logo-area">
-        <svg width="32" height="32" viewBox="0 0 72 72" fill="none"><path d="M36 6L10 18V36C10 51.5 21.5 65.5 36 70C50.5 65.5 62 51.5 62 36V18L36 6Z" fill="rgba(59,130,246,0.12)" stroke="#3b82f6" stroke-width="2"/></svg>
+        <svg width="32" height="32" viewBox="0 0 72 72" fill="none"><path d="M36 6L10 18V36C10 51.5 21.5 65.5 36 70C50.5 65.5 62 51.5 62 36V18L36 6Z" fill="rgba(59,130,246,0.12)" stroke="#3b82f6" stro[...]
         <div class="logo-text">
           <div class="t1">FHP MDT</div>
           <div class="t2">Florida Highway Patrol</div>
@@ -505,7 +520,7 @@ function pageDashboard() {
                 ${esc(u.callsign)}
               </div>
               <div class="text-3xs text-muted mt-1">
-                STATUS: <span style="color:${u.status === '10-8 Available' ? 'var(--green)' : u.status === 'Enroute' ? 'var(--primary)' : u.status === 'On Scene' ? 'var(--amber)' : u.status === 'Busy' ? 'var(--orange)' : 'var(--red)'}">${esc(u.status || '10-8 Available')}</span>
+                STATUS: <span style="color:${u.status === '10-8 Available' ? 'var(--green)' : u.status === 'Enroute' ? 'var(--primary)' : u.status === 'On Scene' ? 'var(--amber)' : u.status === 'Busy'[...]
               </div>
             </div>
           `).join('')
@@ -562,7 +577,7 @@ function pageCalls() {
         <span class="badge badge-${c.status}">${c.status}</span>
         ${c.status==='active'||c.status==='pending'?`
         <div style="display:flex;flex-direction:column;gap:5px;margin-top:4px">
-          ${!(c.responders || []).includes(S.trooper.callsign) ? `<button class="btn btn-primary btn-sm" data-join="${c.id}">Join Call</button>` : `<button class="btn btn-danger btn-sm" data-leave="${c.id}">Leave Call</button>`}
+          ${!(c.responders || []).includes(S.trooper.callsign) ? `<button class="btn btn-primary btn-sm" data-join="${c.id}">Join Call</button>` : `<button class="btn btn-danger btn-sm" data-leave="${[...]
           <button class="btn btn-outline btn-sm" data-close="${c.id}">Close</button>
           <button class="btn btn-outline btn-sm" data-resolve="${c.id}">Resolve</button>
         </div>`:''}
@@ -775,7 +790,7 @@ function openCallModal() {
   <div class="modal">
     <div class="modal-head">
       <div class="modal-title">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14"/></svg>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14"/><[...]
         New Active Call
       </div>
       <button class="btn btn-ghost btn-sm close-modal">✕</button>
@@ -788,7 +803,7 @@ function openCallModal() {
       <div class="field"><label>Call Type *</label>
         <select id="m-ctype">
           <option value="">Select type...</option>
-          ${['Traffic Stop','Pursuit / 10-80','Structure Fire','EMS / Medical','Robbery','Assault','Suspicious Vehicle','Noise Complaint','DUI / 10-55','Accident / MVA','Foot Pursuit','Shots Fired'].map(t=>`<option>${t}</option>`).join('')}
+          ${['Traffic Stop','Pursuit / 10-80','Structure Fire','EMS / Medical','Robbery','Assault','Suspicious Vehicle','Noise Complaint','DUI / 10-55','Accident / MVA','Foot Pursuit','Shots Fired'].m[...]
         </select>
       </div>
       <div class="field"><label>Location *</label><input id="m-cloc" placeholder="e.g. Route 13 NB near exit 42" autocomplete="off"></div>
@@ -815,7 +830,7 @@ function openBoloModal() {
   <div class="modal modal-lg">
     <div class="modal-head">
       <div class="modal-title" style="color:var(--red)">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"[...]
         Issue BOLO Notice
       </div>
       <button class="btn btn-ghost btn-sm close-modal">✕</button>
@@ -907,7 +922,7 @@ function bindAll() {
   q('#btn-clear-calls')?.addEventListener('click', () => { if(confirm('Clear all call history?')){ S.calls = []; persist(KEY.calls, S.calls); refreshPage(); } });
   q('#btn-clear-radio')?.addEventListener('click', () => { if(confirm('Clear all radio history?')){ S.radio = []; persist(KEY.radio, S.radio); refreshPage(); } });
   q('#btn-clear-records')?.addEventListener('click', () => { if(confirm('Clear all records?')){ S.records = []; persist(KEY.records, S.records); refreshPage(); } });
-  q('#btn-clear-mdt')?.addEventListener('click', () => { if(confirm('THIS WILL DELETE ALL MDT DATA! Are you sure?')){ S.calls = []; S.bolos = []; S.records = []; S.radio = []; persist(KEY.calls, []); persist(KEY.bolos, []); persist(KEY.records, []); persist(KEY.radio, []); refreshPage(); } });
+  q('#btn-clear-mdt')?.addEventListener('click', () => { if(confirm('THIS WILL DELETE ALL MDT DATA! Are you sure?')){ S.calls = []; S.bolos = []; S.records = []; S.radio = []; persist(KEY.calls, [...]
   q('#btn-signoff')?.addEventListener('click', () => { if(confirm('Sign off from duty?')){ S.trooper = null; localStorage.removeItem(KEY.session); render(); } });
 
   qa('.nav-item').forEach(el => { el.addEventListener('click', () => { S.page = el.dataset.p; refreshPage(); }); });
@@ -922,18 +937,18 @@ function bindPage() {
   q('#btn-new-record')?.addEventListener('click', openRecordModal);
 
   if(p === 'calls') {
-    qa('[data-join]').forEach(el => { el.addEventListener('click', () => { const cid = el.dataset.join; const c = S.calls.find(x=>x.id===cid); if(c){ if(!c.responders) c.responders = []; if(!c.responders.includes(S.trooper.callsign)){ c.responders.push(S.trooper.callsign); persist(KEY.calls, S.calls); refreshPage(); } } }); });
-    qa('[data-leave]').forEach(el => { el.addEventListener('click', () => { const cid = el.dataset.leave; const c = S.calls.find(x=>x.id===cid); if(c && c.responders){ c.responders = c.responders.filter(r => r !== S.trooper.callsign); persist(KEY.calls, S.calls); refreshPage(); } }); });
-    qa('[data-close]').forEach(el => { el.addEventListener('click', () => { const cid = el.dataset.close; const c = S.calls.find(x=>x.id===cid); if(c) { c.status = 'closed'; persist(KEY.calls, S.calls); refreshPage(); } }); });
-    qa('[data-resolve]').forEach(el => { el.addEventListener('click', () => { const cid = el.dataset.resolve; const c = S.calls.find(x=>x.id===cid); if(c) { c.status = 'resolved'; persist(KEY.calls, S.calls); refreshPage(); } }); });
+    qa('[data-join]').forEach(el => { el.addEventListener('click', () => { const cid = el.dataset.join; const c = S.calls.find(x=>x.id===cid); if(c){ if(!c.responders) c.responders = []; if(!c.respond[...]
+    qa('[data-leave]').forEach(el => { el.addEventListener('click', () => { const cid = el.dataset.leave; const c = S.calls.find(x=>x.id===cid); if(c && c.responders){ c.responders = c.responders.filt[...]
+    qa('[data-close]').forEach(el => { el.addEventListener('click', () => { const cid = el.dataset.close; const c = S.calls.find(x=>x.id===cid); if(c) { c.status = 'closed'; persist(KEY.calls, S.calls[...]
+    qa('[data-resolve]').forEach(el => { el.addEventListener('click', () => { const cid = el.dataset.resolve; const c = S.calls.find(x=>x.id===cid); if(c) { c.status = 'resolved'; persist(KEY.calls, S[...]
   }
 
   if(p === 'bolos') {
-    qa('[data-resolve-bolo]').forEach(el => { el.addEventListener('click', () => { const bid = el.dataset.resolveBolo; const b = S.bolos.find(x=>x.id===bid); if(b) { b.status = 'resolved'; persist(KEY.bolos, S.bolos); refreshPage(); } }); });
+    qa('[data-resolve-bolo]').forEach(el => { el.addEventListener('click', () => { const bid = el.dataset.resolveBolo; const b = S.bolos.find(x=>x.id===bid); if(b) { b.status = 'resolved'; persist(KEY[...]
   }
 
   if(p === 'records') {
-    qa('[data-del-rec]').forEach(el => { el.addEventListener('click', () => { const rid = el.dataset.delRec; S.records = S.records.filter(r => r.id !== rid); persist(KEY.records, S.records); refreshPage(); }); });
+    qa('[data-del-rec]').forEach(el => { el.addEventListener('click', () => { const rid = el.dataset.delRec; S.records = S.records.filter(r => r.id !== rid); persist(KEY.records, S.records); refreshPa[...]
   }
 
   if(p === 'roblox') {
@@ -998,171 +1013,4 @@ function bindPage() {
       }
     });
   }
-}
-function bindModal() {
-  qa('.close-modal').forEach(el => { el.addEventListener('click', closeModal); });
-
-  if(S.modal.includes('New Active Call')) {
-    qa('#m-cpri-group .toggle-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        qa('#m-cpri-group .toggle-btn').forEach(b => b.classList.remove('selected-critical','selected-high','selected-medium','selected-low'));
-        const p = btn.dataset.pri;
-        btn.classList.add(`selected-${p}`);
-        q('#m-cpri').value = p;
-      });
-    });
-    q('#btn-call-submit')?.addEventListener('click', () => {
-      const typ = q('#m-ctype').value;
-      const loc = q('#m-cloc').value;
-      const pri = q('#m-cpri').value;
-      const desc = q('#m-cdesc').value;
-      if(!typ || !loc) { alert('Call Type and Location required'); return; }
-      S.calls.push({
-        id: uid(),
-        num: nextCallNum(),
-        type: typ,
-        location: loc,
-        priority: pri,
-        description: desc,
-        status: 'active',
-        submittedBy: S.trooper.name,
-        responders: [S.trooper.callsign],
-        ts: ts()
-      });
-      persist(KEY.calls, S.calls);
-      closeModal();
-      S.page = 'calls';
-      refreshPage();
-    });
-  }
-
-  if(S.modal.includes('Issue BOLO')) {
-    qa('[data-btype]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const t = btn.dataset.btype;
-        qa('[data-btype]').forEach(b => b.classList.remove('selected-primary'));
-        btn.classList.add('selected-primary');
-        q('#m-btype').value = t;
-        q('#person-fields').style.display = t==='person'?'block':'none';
-        q('#vehicle-fields').style.display = t==='vehicle'?'block':'none';
-      });
-    });
-
-    qa('[data-dlvl]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        qa('[data-dlvl]').forEach(b => b.classList.remove('selected-critical','selected-high','selected-medium','selected-low','selected-extreme'));
-        const d = btn.dataset.dlvl;
-        btn.classList.add(`selected-${d}`);
-        q('#m-bdanger').value = d;
-      });
-    });
-
-    q('#btn-bolo-submit')?.addEventListener('click', () => {
-      const t = q('#m-btype').value;
-      const desc = q('#m-bdesc').value;
-      let name = '';
-      if(t === 'person') {
-        name = q('#m-bname').value;
-        if(!name) { alert('Subject Name required'); return; }
-      } else {
-        const make = q('#m-bmake').value;
-        const model = q('#m-bmodel').value;
-        const color = q('#m-bcolor').value;
-        name = [color, make, model].filter(Boolean).join(' ');
-      }
-      if(!desc) { alert('Description required'); return; }
-
-      const bolo = {
-        id: uid(),
-        boloType: t,
-        status: 'active',
-        dangerLevel: q('#m-bdanger').value,
-        description: desc,
-        issuedBy: S.trooper.name,
-        ts: ts()
-      };
-
-      if(t === 'person') {
-        bolo.name = q('#m-bname').value;
-        bolo.robloxUsername = q('#m-broblox').value;
-      } else {
-        bolo.vehicleMake = q('#m-bmake').value;
-        bolo.vehicleModel = q('#m-bmodel').value;
-        bolo.vehicleColor = q('#m-bcolor').value;
-        bolo.plateNumber = q('#m-bplate').value;
-      }
-      bolo.reason = q('#m-breason').value;
-
-      S.bolos.push(bolo);
-      persist(KEY.bolos, S.bolos);
-      closeModal();
-      S.page = 'bolos';
-      refreshPage();
-    });
-  }
-
-  if(S.modal.includes('New Record')) {
-    q('#btn-rec-submit')?.addEventListener('click', () => {
-      const sub = q('#m-rsub').value;
-      if(!sub) { alert('Subject / Title required'); return; }
-      S.records.push({
-        id: uid(),
-        subject: sub,
-        type: q('#m-rtype').value,
-        notes: q('#m-rnotes').value,
-        officer: S.trooper.name,
-        ts: ts()
-      });
-      persist(KEY.records, S.records);
-      closeModal();
-      S.page = 'records';
-      refreshPage();
-    });
-  }
-}
-
-// ===================== AUTH =====================
-function doSignOn() {
-  const name = q('#ln').value.trim();
-  const cs = q('#lcs').value.trim();
-  const admin_pass = q('#admin-pass').value;
-
-  if(!name || !cs) { alert('Name and Callsign required'); return; }
-
-  S.trooper = {
-    name: name,
-    callsign: cs,
-    admin: admin_pass === ADMIN_PASSWORD,
-    status: '10-8 Available'
-  };
-
-  S.units.push(S.trooper);
-
-  persist(KEY.session, S.trooper);
-  load();
-  render();
-}
-
-// ===================== ROBLOX SEARCH =====================
-function doRobloxSearch() {
-  const q_str = (q('#rq').value||'').trim();
-  if(!q_str) return;
-
-  S._rq = q_str;
-  S.robloxLoading = true;
-  S.robloxError = null;
-  S.roblox = null;
-  refreshPage();
-
-  setTimeout(() => {
-    S.robloxLoading = false;
-    refreshPage();
-  }, 600);
-}
-
-// ===================== INIT =====================
-load();
-render();
-</script>
-</body>
-</html>
+[...]
